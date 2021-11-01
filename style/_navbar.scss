@@ -7,7 +7,7 @@
 
     .nav-item{
         .nav-link{
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-up(lg){
                 margin-left: 10px;
                 margin-right: 10px;
             }
